@@ -6,3 +6,8 @@ node.js study with javascript
 
 [PM2]<https://pm2.keymetrics.io/>
 
+```
+pm2 start main.js --watch
+```
+
+-> 바로 실시간 변경을 반영한다.

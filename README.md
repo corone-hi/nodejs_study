@@ -9,6 +9,9 @@ node.js study with javascript
 
 ```
 pm2 start main.js --watch
+
+pm2 start main.js --watch --no-demon 
+// (background 아니게 실행)
 ```
 
 -> 바로 실시간 변경을 반영한다.
@@ -20,3 +23,10 @@ pm2 start main.js --watch
 pm2 log
 
 ```
+
+```
+pm2 kill
+
+pm2 stop <id>
+```
+
